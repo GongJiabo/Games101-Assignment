@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/jbgong/Downloads/games101/Assignment4/code/build",
+  "command": "/usr/bin/clang++  -isystem /usr/local/include/opencv4  -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++14 -o CMakeFiles/BezierCurve.dir/main.cpp.o -c /Users/jbgong/Downloads/games101/Assignment4/code/main.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Assignment4/code/main.cpp"
+}
+]

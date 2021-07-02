@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "macos-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c17",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "macos-gcc-x64",
+      "compilerArgs": [
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-g"
+      ]
+    }
+  ],
+  "version": 4
+}

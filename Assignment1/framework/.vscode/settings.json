@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "/usr/bin/python3",
+  "files.associations": {
+    "complex": "cpp"
+  },
+  "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
+  "C_Cpp_Runner.cStandard": "c11",
+  "C_Cpp_Runner.cppStandard": "c++17"
+}

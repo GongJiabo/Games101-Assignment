@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/jbgong/Downloads/games101/Assignment3/framework/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/eigen/3.3.9/include -isystem /usr/local/include/opencv4  -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/Rasterizer.dir/main.cpp.o -c /Users/jbgong/Downloads/games101/Assignment3/framework/main.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Assignment3/framework/main.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Assignment3/framework/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/eigen/3.3.9/include -isystem /usr/local/include/opencv4  -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.o -c /Users/jbgong/Downloads/games101/Assignment3/framework/rasterizer.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Assignment3/framework/rasterizer.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Assignment3/framework/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/eigen/3.3.9/include -isystem /usr/local/include/opencv4  -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/Rasterizer.dir/Triangle.cpp.o -c /Users/jbgong/Downloads/games101/Assignment3/framework/Triangle.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Assignment3/framework/Triangle.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Assignment3/framework/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/eigen/3.3.9/include -isystem /usr/local/include/opencv4  -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/Rasterizer.dir/Texture.cpp.o -c /Users/jbgong/Downloads/games101/Assignment3/framework/Texture.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Assignment3/framework/Texture.cpp"
+}
+]
