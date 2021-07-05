@@ -1,5 +1,5 @@
 CMakeFiles/Rasterizer.dir/main.cpp.o: \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/main.cpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/main.cpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \
@@ -348,8 +348,8 @@ CMakeFiles/Rasterizer.dir/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/global.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/rasterizer.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/global.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/rasterizer.hpp \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/Eigen \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/Dense \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/Core \
@@ -598,10 +598,10 @@ CMakeFiles/Rasterizer.dir/main.cpp.o: \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/Shader.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/Texture.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/Triangle.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/OBJ_Loader.h \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Shader.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Texture.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Triangle.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/OBJ_Loader.h \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stack

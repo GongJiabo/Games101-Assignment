@@ -1,8 +1,24 @@
 {
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.cStandard": "c17",
-  "C_Cpp_Runner.warnings": "-Wall -Wextra -Wpedantic",
-  "C_Cpp_Runner.compilerArgs": "-g",
+  "C_Cpp_Runner.warnings": [],
+  "C_Cpp_Runner.compilerArgs": [
+    "-",
+    "W",
+    "a",
+    "l",
+    " ",
+    "e",
+    "x",
+    "t",
+    "r",
+    "p",
+    "d",
+    "n",
+    "i",
+    "c",
+    "g"
+  ],
   "files.associations": {
     "__node_handle": "cpp",
     "functional": "cpp",
@@ -76,5 +92,11 @@
     "vector": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang++",
-  "cmake.configureOnOpen": true
+  "cmake.configureOnOpen": true,
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false
 }

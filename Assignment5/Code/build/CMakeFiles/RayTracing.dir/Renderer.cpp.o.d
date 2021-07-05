@@ -1,5 +1,5 @@
 CMakeFiles/RayTracing.dir/Renderer.cpp.o: \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/Renderer.cpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/Renderer.cpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \
@@ -230,17 +230,17 @@ CMakeFiles/RayTracing.dir/Renderer.cpp.o: \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iomanip \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/Vector.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/Vector.hpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/math.h \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iostream \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/Renderer.hpp \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/Scene.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/Renderer.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/Scene.hpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/vector \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/Object.hpp \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/global.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/Object.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/global.hpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/random \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/numeric \
-  /Users/jbgong/Downloads/games101/Assignment5/Code/Light.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment5/Code/Light.hpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/optional

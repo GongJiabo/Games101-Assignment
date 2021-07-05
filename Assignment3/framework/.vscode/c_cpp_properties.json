@@ -10,10 +10,21 @@
       "cppStandard": "${default}",
       "intelliSenseMode": "macos-clang-x64",
       "compilerArgs": [
-        "-Wall",
-        "-Wextra",
-        "-Wpedantic",
-        "-g"
+        "-",
+        "W",
+        "a",
+        "l",
+        " ",
+        "e",
+        "x",
+        "t",
+        "r",
+        "p",
+        "d",
+        "n",
+        "i",
+        "c",
+        "g"
       ],
       "configurationProvider": "ms-vscode.cmake-tools"
     }

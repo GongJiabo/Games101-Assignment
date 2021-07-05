@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jbgong/Downloads/games101/Assignment3/framework/Texture.cpp" "CMakeFiles/Rasterizer.dir/Texture.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Texture.cpp.o.d"
-  "/Users/jbgong/Downloads/games101/Assignment3/framework/Triangle.cpp" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o.d"
-  "/Users/jbgong/Downloads/games101/Assignment3/framework/main.cpp" "CMakeFiles/Rasterizer.dir/main.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/main.cpp.o.d"
-  "/Users/jbgong/Downloads/games101/Assignment3/framework/rasterizer.cpp" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o.d"
+  "/Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Texture.cpp" "CMakeFiles/Rasterizer.dir/Texture.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Texture.cpp.o.d"
+  "/Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Triangle.cpp" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o.d"
+  "/Users/jbgong/Downloads/games101/Games101/Assignment3/framework/main.cpp" "CMakeFiles/Rasterizer.dir/main.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/main.cpp.o.d"
+  "/Users/jbgong/Downloads/games101/Games101/Assignment3/framework/rasterizer.cpp" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -382,11 +382,17 @@ int main(int argc, const char** argv)
 
     std::string filename = "output.png";
     objl::Loader Loader;
-    std::string obj_path = "/Users/jbgong/Downloads/games101/Assignment3/framework/models/rock/";
+    std::string obj_path = "/Users/jbgong/Downloads/Games101/games101/Assignment3/framework/models/rock/";
 
     // Load .obj File
-    // 从obj文件中读取顶点vertices信息和对应的textcure坐标，以及发向量normal
-    bool loadout = Loader.LoadFile("/Users/jbgong/Downloads/games101/Assignment3/framework/models/cube/cube.obj");
+    // 从obj文件中读取顶点vertices信息和对应的textcure坐标，以及法向量normal
+    // v 几何体顶点(Geometric vertices)
+    // vt 贴图坐标点(Texture vertices)
+    // vn 顶点法线(Vertex normals)
+    // f 面(Face):
+    //      ”f verticeIndex\vtIndex\vnIndex”其中verticeIndex表示顶点序列号，vtIndex表示uv索引号，vnIndex表示法线索引号
+    //      其中vtIndex，vnIndex可以缺失，不写也没有关系，但是顶点索引值必须得有。
+    bool loadout = Loader.LoadFile("/Users/jbgong/Downloads/Games101/games101/Assignment3/framework/models/cube/cube.obj");
     for(auto mesh:Loader.LoadedMeshes)
     {
         for(int i=0;i<mesh.Vertices.size();i+=3)

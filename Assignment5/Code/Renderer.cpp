@@ -211,7 +211,7 @@ Vector3f castRay(
 
                     // 如果是阴影点 光强设置为0
                     lightAmt += inShadow ? 0 : light->intensity * LdotN;
-                    // 计算反射方向
+                    // 计算反射方向(仍然计算的是镜面反射的方向)
                     Vector3f reflectionDirection = reflect(-lightDir, N);
 
                     // 高光 ???

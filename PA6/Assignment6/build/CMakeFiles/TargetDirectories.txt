@@ -1,0 +1,3 @@
+/Users/jbgong/Downloads/games101/Games101/PA6/Assignment6/build/CMakeFiles/rebuild_cache.dir
+/Users/jbgong/Downloads/games101/Games101/PA6/Assignment6/build/CMakeFiles/edit_cache.dir
+/Users/jbgong/Downloads/games101/Games101/PA6/Assignment6/build/CMakeFiles/RayTracing.dir

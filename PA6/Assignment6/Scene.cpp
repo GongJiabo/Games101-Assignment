@@ -52,6 +52,7 @@ bool Scene::trace(
 // at the intersection point.
 Vector3f Scene::castRay(const Ray &ray, int depth) const
 {
+    // 限制光线传播/递归的次数
     if (depth > this->maxDepth) {
         return Vector3f(0.0,0.0,0.0);
     }
@@ -62,8 +63,8 @@ Vector3f Scene::castRay(const Ray &ray, int depth) const
 //    float tnear = kInfinity;
     Vector2f uv;
     uint32_t index = 0;
-    if(intersection.happened) {
-
+    if(intersection.happened) 
+    {
         Vector3f hitPoint = intersection.coords;
         Vector3f N = intersection.normal; // normal
         Vector2f st; // st coordinates

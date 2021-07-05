@@ -204,7 +204,7 @@ void rst::rasterizer::draw(std::vector<Triangle *> &TriangleList) {
             vec.z()/=vec.w();
         }
 
-        // 初始法向量normal经过mvp变换后，不再是变换后图形的发向量(切向量不变)
+        // 初始法向量normal经过mvp变换后，不再是变换后图形的法向量(切向量不变)
         // 将变换后的法向量转换到世界坐标系 (view*model).inverse().transpose() 
         Eigen::Matrix4f inv_trans = (view * model).inverse().transpose();
         Eigen::Vector4f n[] = {
@@ -311,12 +311,8 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
             // 更新深度
             depth_buf[buf_index] = zp;
 
-            // TODO: Interpolate the attributes:
-            // auto interpolated_color
-            // auto interpolated_normal
-            // auto interpolated_texcoords
-            // auto interpolated_shadingcoords
 
+            // phong shading
             auto interpolated_color = interpolate(alpha,beta,gamma,t.color[0],t.color[1],t.color[2],1);
             auto interpolated_normal = interpolate(alpha,beta,gamma,t.normal[0],t.normal[1],t.normal[2],1);
             auto interpolated_texcoords =  interpolate(alpha,beta,gamma,t.tex_coords[0],t.tex_coords[1],t.tex_coords[2],1);

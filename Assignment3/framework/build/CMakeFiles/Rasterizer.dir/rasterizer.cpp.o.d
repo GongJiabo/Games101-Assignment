@@ -1,5 +1,5 @@
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/rasterizer.cpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/rasterizer.cpp \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \
@@ -160,7 +160,7 @@ CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/assert.h \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/bit \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/rasterizer.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/rasterizer.hpp \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/Eigen \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/Dense \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/Core \
@@ -486,9 +486,9 @@ CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /opt/homebrew/Cellar/eigen/3.3.9/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
   /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/list \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/global.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/Shader.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/Texture.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/global.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Shader.hpp \
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Texture.hpp \
   /usr/local/include/opencv4/opencv2/opencv.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
@@ -600,4 +600,4 @@ CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/jbgong/Downloads/games101/Assignment3/framework/Triangle.hpp
+  /Users/jbgong/Downloads/games101/Games101/Assignment3/framework/Triangle.hpp
