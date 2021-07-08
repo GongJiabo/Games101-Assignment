@@ -28,7 +28,7 @@ public:
     friend std::ostream & operator << (std::ostream &os, const Vector3f &v)
     { return os << v.x << ", " << v.y << ", " << v.z; }
     double       operator[](int index) const;
-    double&      operator[](int index);
+    // double&      operator[](int index);              // Gong: 注释掉 否则在SAH算法中调用Vector3f的[]运算符会重载导致指向不明
 
 
     static Vector3f Min(const Vector3f &p1, const Vector3f &p2) {
@@ -43,6 +43,13 @@ public:
 };
 inline double Vector3f::operator[](int index) const {
     return (&x)[index];
+    // if(index == 0)
+    //     return x;
+    // else if(index == 1)
+    //     return y;
+    // else if(index == 2)
+    //     return z;
+    // return INFINITY;
 }
 
 

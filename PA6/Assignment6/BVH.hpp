@@ -27,8 +27,8 @@ public:
     // BVHAccel Public Types
     enum class SplitMethod { NAIVE, SAH };
 
-    // BVHAccel Public Methods
-    BVHAccel(std::vector<Object*> p, int maxPrimsInNode = 1, SplitMethod splitMethod = SplitMethod::NAIVE);
+    // BVHAccel Public Methods 一个包围和节点中最多多一个物体
+    BVHAccel(std::vector<Object*> p, int maxPrimsInNode = 1, SplitMethod splitMethod = SplitMethod::BVH);
     Bounds3 WorldBound() const;
     ~BVHAccel();
 

@@ -20,7 +20,7 @@ void Renderer::Render(const Scene& scene)
 
     float scale = tan(deg2rad(scene.fov * 0.5));
     float imageAspectRatio = scene.width / (float)scene.height;
-    Vector3f eye_pos(-1, 5, 10);
+    Vector3f eye_pos(-1, 5, 8);
     int m = 0;
     for (uint32_t j = 0; j < scene.height; ++j) {
         for (uint32_t i = 0; i < scene.width; ++i) {
@@ -34,6 +34,8 @@ void Renderer::Render(const Scene& scene)
             // Also, don't forget to multiply both of them with the variable
             // *scale*, and x (horizontal) variable with the *imageAspectRatio*
 
+            // 此时得到的dir方向应该是在观察空间坐标系下(相机为原点, 观察方向沿-z的那个)
+            // 默认了原点与其的连线作为dir方向 但是在在转换为世界坐标系下时 dir不变说明 不发生旋转 相机与dir点的相对位置不会改变
             Vector3f dir = Vector3f(x, y, -1.0); // Don't forget to normalize this direction!
             dir = normalize(dir);
             Ray ray = {eye_pos, dir};

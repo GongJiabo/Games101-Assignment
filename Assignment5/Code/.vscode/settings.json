@@ -1,6 +1,24 @@
 {
-    "files.associations": {
-        "memory": "cpp",
-        "algorithm": "cpp"
-    }
+  "files.associations": {
+    "memory": "cpp",
+    "algorithm": "cpp",
+    "deque": "cpp",
+    "optional": "cpp",
+    "stack": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp"
+  },
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false
 }

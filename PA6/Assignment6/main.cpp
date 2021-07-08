@@ -13,11 +13,11 @@ int main(int argc, char** argv)
 {
     Scene scene(1280, 960);
 
-    MeshTriangle bunny("./models/bunny/bunny.obj");
+    MeshTriangle bunny("/Users/jbgong/Downloads/games101/Games101/PA6/Assignment6/models/bunny/bunny.obj");
 
     scene.Add(&bunny);
     scene.Add(std::make_unique<Light>(Vector3f(-20, 70, 20), 1));
-    scene.Add(std::make_unique<Light>(Vector3f(20, 70, 20), 1));
+    scene.Add(std::make_unique<Light>(Vector3f(20, 70, 20), 2));
     // 根据scene中的场景生成包围和
     scene.buildBVH();
 

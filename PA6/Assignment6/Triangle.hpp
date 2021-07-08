@@ -89,6 +89,7 @@ public:
         Vector3f max_vert = Vector3f{-std::numeric_limits<float>::infinity(),
                                      -std::numeric_limits<float>::infinity(),
                                      -std::numeric_limits<float>::infinity()};
+        // 求所有顶点中最小和最大的点(左下后 右上前)
         for (int i = 0; i < mesh.Vertices.size(); i += 3) {
             std::array<Vector3f, 3> face_vertices;
             for (int j = 0; j < 3; j++) {
@@ -106,6 +107,7 @@ public:
                                     std::max(max_vert.z, vert.z));
             }
 
+            // 设置材质 颜色 发光emission
             auto new_mat =
                 new Material(MaterialType::DIFFUSE_AND_GLOSSY,
                              Vector3f(0.5, 0.5, 0.5), Vector3f(0, 0, 0));
@@ -113,6 +115,7 @@ public:
             new_mat->Ks = 0.0;
             new_mat->specularExponent = 0;
 
+            // 将三个顶点组成的三角形格网 与 材质属性 存入类成员变量triangles
             triangles.emplace_back(face_vertices[0], face_vertices[1],
                                    face_vertices[2], new_mat);
         }

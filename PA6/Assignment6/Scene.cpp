@@ -7,7 +7,7 @@
 
 void Scene::buildBVH() {
     printf(" - Generating BVH...\n\n");
-    this->bvh = new BVHAccel(objects, 1, BVHAccel::SplitMethod::NAIVE);
+    this->bvh = new BVHAccel(objects, 1, BVHAccel::SplitMethod::NAIVE);     // 该scene的bvh在这里和Meshtriangle中的bvh一致(场景中的物体只有Meshtriangle)
 }
 
 Intersection Scene::intersect(const Ray &ray) const
