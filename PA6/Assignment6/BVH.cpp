@@ -22,7 +22,7 @@ BVHAccel::BVHAccel(std::vector<Object *> p, int maxPrimsInNode,
     int secs = (int)diff - (hrs * 3600) - (mins * 60);
 
     printf(
-        "\rBVH Generation complete: \nTime Taken: %i hrs, %i mins, %i secs\n\n",
+        "\rBVH/SAH Generation complete: \nTime Taken: %i hrs, %i mins, %i secs\n\n",
         hrs, mins, secs);
 }
 
@@ -100,14 +100,19 @@ BVHBuildNode *BVHAccel::recursiveBuild(std::vector<Object *> objects)
                 Bounds3 nBounds;
                 for (int i = 0; i < objects.size(); ++i)
                     nBounds = Union(nBounds, objects[i]->getBounds());
+                // 当前所有物体包围和立方体的表面积
                 float nArea = centroidBounds.SurfaceArea();
 
                 int minCostCoor = 0;
                 int mincostIndex = 0;
                 float minCost = std::numeric_limits<float>::infinity();
                 std::map<int, std::map<int, int>> indexMap;
+                
+                // 以此遍历三个轴
+                // 目的是划分后，使两边objects包围和的总表面积尽量相等 S(A)/S(C)+S(B)/S(C)越小（越接近S(C)-父节点表面积）
                 for(int i = 0; i < 3; i++)
                 {
+                    // 将当前区域划分为12个子区域，在这12个子区域内分为两块
                     int bucketCount = 12;
                     std::vector<Bounds3> boundsBuckets;
                     std::vector<int> countBucket;
@@ -119,9 +124,12 @@ BVHBuildNode *BVHAccel::recursiveBuild(std::vector<Object *> objects)
 
                     std::map<int, int> objMap;
 
+                    // 依次取所有的objects
                     for(int j = 0; j < objects.size(); j++)
                     {
+                        // tmp相当于objects[j]包围和中心点在centroidBounds中的位置(长宽高比例)
                         Vector3f tmp = centroidBounds.Offset(objects[j]->getBounds().Centroid());
+                        // 是根据每个objects中心点至整体包围和pMin的位置来 均匀 划分 12分份
                         int bid =  bucketCount * tmp[i];
                         if(bid > bucketCount - 1)
                         {

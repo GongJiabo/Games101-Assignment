@@ -13,12 +13,14 @@ int main(int argc, char** argv)
 {
     Scene scene(1280, 960);
 
+    // 创建MeshTriangle过程中 默认生成了BVHAccel
     MeshTriangle bunny("/Users/jbgong/Downloads/games101/Games101/PA6/Assignment6/models/bunny/bunny.obj");
 
     scene.Add(&bunny);
     scene.Add(std::make_unique<Light>(Vector3f(-20, 70, 20), 1));
     scene.Add(std::make_unique<Light>(Vector3f(20, 70, 20), 2));
-    // 根据scene中的场景生成包围和
+
+    // 根据scene中的场景生成包围和BVHAccel（与上面MeshTriangle重复？单个物体对象确实是一样的，若考虑多个objects加入scene就需要重新计算BVH）
     scene.buildBVH();
 
     Renderer r;

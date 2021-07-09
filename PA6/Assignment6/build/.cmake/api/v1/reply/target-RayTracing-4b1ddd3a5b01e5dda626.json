@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4"
+					"fragment" : " -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4"
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -66,7 +66,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-std=c++11 -g",
 				"role" : "flags"
 			},
 			{
