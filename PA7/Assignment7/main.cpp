@@ -12,10 +12,11 @@
 // function().
 int main(int argc, char** argv)
 {
-
     // Change the definition here to change resolution
     Scene scene(784, 784);
 
+    // 参数类型: 材质类型 自发光量
+    // kd: 漫发射系数
     Material* red = new Material(DIFFUSE, Vector3f(0.0f));
     red->Kd = Vector3f(0.63f, 0.065f, 0.05f);
     Material* green = new Material(DIFFUSE, Vector3f(0.0f));

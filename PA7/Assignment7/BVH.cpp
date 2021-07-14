@@ -30,6 +30,7 @@ BVHBuildNode* BVHAccel::recursiveBuild(std::vector<Object*> objects)
     BVHBuildNode* node = new BVHBuildNode();
 
     // Compute bounds of all primitives in BVH node
+    // 求所有objects物体的包围和 BVH划分
     Bounds3 bounds;
     for (int i = 0; i < objects.size(); ++i)
         bounds = Union(bounds, objects[i]->getBounds());
@@ -108,11 +109,30 @@ Intersection BVHAccel::Intersect(const Ray& ray) const
 Intersection BVHAccel::getIntersection(BVHBuildNode* node, const Ray& ray) const
 {
     // TODO Traverse the BVH to find intersection
+    Vector3f invDir = Vector3f{1.0f / ray.direction.x, 1.0f / ray.direction.y, 1.0f / ray.direction.z};
+    std::array<int, 3> dirIsNeg = {ray.direction.x > 0, ray.direction.y > 0, ray.direction.z > 0};
 
+    // 先判断与当前的包围和节点是否相交 不相交则返回 相交则递归对当前节点的左右节点求交
+    if (!node->bounds.IntersectP(ray, invDir, dirIsNeg))
+    {
+        return {};
+    }
+
+    if (node->left == nullptr && node->right == nullptr)
+    {
+        // 如果是叶子节点中的BVH相交，调用BVH节点Node中的物体进行求交，计算光线与物体的交点hitPoint
+        return node->object->getIntersection(ray);
+    }
+
+    Intersection h1 = getIntersection(node->left, ray);
+    Intersection h2 = getIntersection(node->right, ray);
+
+    return h1.distance < h2.distance ? h1 : h2;
 }
 
 
 void BVHAccel::getSample(BVHBuildNode* node, float p, Intersection &pos, float &pdf){
+    // 达到BVH的叶子节点，对BVH中的物体进行采样
     if(node->left == nullptr || node->right == nullptr){
         node->object->Sample(pos, pdf);
         pdf *= node->area;
