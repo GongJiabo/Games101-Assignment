@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/build",
+  "command": "/usr/bin/clang++    -std=c++11 -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/RayTracing.dir/main.cpp.o -c /Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/main.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/main.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/build",
+  "command": "/usr/bin/clang++    -std=c++11 -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/RayTracing.dir/Vector.cpp.o -c /Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/Vector.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/Vector.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/build",
+  "command": "/usr/bin/clang++    -std=c++11 -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/RayTracing.dir/Scene.cpp.o -c /Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/Scene.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/Scene.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/build",
+  "command": "/usr/bin/clang++    -std=c++11 -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/RayTracing.dir/BVH.cpp.o -c /Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/BVH.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/BVH.cpp"
+},
+{
+  "directory": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/build",
+  "command": "/usr/bin/clang++    -std=c++11 -g -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.4 -std=gnu++17 -o CMakeFiles/RayTracing.dir/Renderer.cpp.o -c /Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/Renderer.cpp",
+  "file": "/Users/jbgong/Downloads/games101/Games101/PA7/Assignment7/Renderer.cpp"
+}
+]
